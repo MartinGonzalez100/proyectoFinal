@@ -1,12 +1,24 @@
-// Codigo firebase Carlos
+// // Codigo firebase Carlos
+// var firebaseConfig = {
+//     apiKey: "AIzaSyCmRFONWKjnYGHrny9AqeXqJS7FxfC4R9E",
+//     authDomain: "localstorage-e6721.firebaseapp.com",
+//     projectId: "localstorage-e6721",
+//     storageBucket: "localstorage-e6721.appspot.com",
+//     messagingSenderId: "719797837765",
+//     appId: "1:719797837765:web:6cf7cce3a249d07edbf5ac",
+// };
+
+//base martin
+// Your web app's Firebase configuration
+
 var firebaseConfig = {
-    apiKey: "AIzaSyCmRFONWKjnYGHrny9AqeXqJS7FxfC4R9E",
-    authDomain: "localstorage-e6721.firebaseapp.com",
-    projectId: "localstorage-e6721",
-    storageBucket: "localstorage-e6721.appspot.com",
-    messagingSenderId: "719797837765",
-    appId: "1:719797837765:web:6cf7cce3a249d07edbf5ac",
-};
+    apiKey: "AIzaSyDEHn6TxLcKUoJ-n9362w0HNaVBTuffpe0",
+    authDomain: "proyectofinal-9b976.firebaseapp.com",
+    projectId: "proyectofinal-9b976",
+    storageBucket: "proyectofinal-9b976.appspot.com",
+    messagingSenderId: "935267993825",
+    appId: "1:935267993825:web:57e3a7957dcbe64bd60fa0",
+  };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
