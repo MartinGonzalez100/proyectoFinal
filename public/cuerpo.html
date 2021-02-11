@@ -31,13 +31,13 @@
                     </form>
                 </div>
                 <div id="iniciarSesionRegistrarse" class="contenedor-registro">
-                    <button type="button" class="btn-navbar btn ">Iniciar Sesion/Registrarse</button>
+                    <button type="button" class="btn-navbar btn ">Iniciar Sesión/Registrarse</button>
                     <!-- <button type="button" class="btn-navbar btn ">Registrase</button> -->
                 </div>
                 <!-- usar este boton martin -->
                 <div id="imagenNavbarPerfilConteiner">
                   <img id="imagenNavbarPerfil" src="./images/avatares/avatarH1.svg" alt=""> 
-                  <button id="btn-cerrarSesion" type="button" class="btn btn-outline-secondary">Cerrar Sesion</button>
+                  <button id="btn-cerrarSesion" type="button" class="btn btn-outline-secondary">Cerrar Sesión</button>
                   <button id="btn-Perfil" type="button" class="btn btn-outline-secondary">Perfil</button>
                 </div>
 
@@ -89,31 +89,42 @@
     
                     <ul id="menuBusquedas" class="menu container-fluid" data-animation="diagonal">
                       <li>
-                        <a href="#0" class="SelectoresMenuBusqueda" id="MenuTodos">
-                          Todos
-                          <span class="border border-top"></span>
-                          <span class="border border-right"></span>
-                          <span class="border border-bottom"></span>
-                          <span class="border border-left"></span>
-                        </a>
+                        <div type="button"  id="MenuTodos">
+
+                          <a href="#0" class="SelectoresMenuBusqueda">
+                            Todos
+                            <span class="border border-top"></span>
+                            <span class="border border-right"></span>
+                            <span class="border border-bottom"></span>
+                            <span class="border border-left"></span>
+                          </a>
+                        </div>
                       </li>
                       <li>
-                        <a href="#0" class="SelectoresMenuBusqueda" id="MenuProductos">
-                          Productos
-                          <span class="border border-top"></span>
-                          <span class="border border-right"></span>
-                          <span class="border border-bottom"></span>
-                          <span class="border border-left"></span>
-                        </a>
+                        <div id="MenuProductos" type="button">
+
+                          <a href="#0" class="SelectoresMenuBusqueda" >
+                            Productos
+                            <span class="border border-top"></span>
+                            <span class="border border-right"></span>
+                            <span class="border border-bottom"></span>
+                            <span class="border border-left"></span>
+                          </a>
+                        </div>
                       </li>
                       <li>
-                        <a href="#" class="SelectoresMenuBusqueda" id="MenuServicios">
-                          Servicios
-                          <span class="border border-top"></span>
-                          <span class="border border-right"></span>
-                          <span class="border border-bottom"></span>
-                          <span class="border border-left"></span>
-                        </a>
+                        
+                        <div type="button" id="MenuServicios" name="MenuServicios">
+
+                          <a href="#0" class="SelectoresMenuBusqueda" >
+                            Servicios
+                            
+                            <span class="border border-top"></span>
+                            <span class="border border-right"></span>
+                            <span class="border border-bottom"></span>
+                            <span class="border border-left"></span>
+                          </a>
+                        </div>
                       </li>
                   </ul>
                 </div>
@@ -277,7 +288,6 @@ const barraBusqueda = document.querySelector('#barraBusqueda')
 <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
 <script src="./js/script.js"></script>
 <script src="./js/cuerpo.js"></script>
-
 <script src="./js/cargarProducto.js"></script>
 <script src="./js/cargarServicio.js"></script>
 

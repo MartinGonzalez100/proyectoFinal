@@ -18,7 +18,7 @@ const obtenerPublicacion = (req, res)=>{
 }
 const obtenerPublicacionServicios = (req, res)=>{
     
-    conexion_db.query('select * from publicacion_t while tipo = "servicio"', (err, result)=>{
+    conexion_db.query('SELECT `id`,`publicacion`,`detalle`,`precio`,`zona`,`imagenurl`,`rubro`,`condicion`,`idusuario`,`tipo` FROM `publicacion_t` WHERE `tipo`= "servicio"; ', (err, result)=>{
         if(err){
             throw err
         
@@ -31,7 +31,7 @@ const obtenerPublicacionServicios = (req, res)=>{
 }
 const obtenerPublicacionProductos = (req, res)=>{
     
-    conexion_db.query('select * from publicacion_t while tipo = "producto"', (err, result)=>{
+    conexion_db.query('SELECT `id`,`publicacion`,`detalle`,`precio`,`zona`,`imagenurl`,`rubro`,`condicion`,`idusuario`,`tipo` FROM `publicacion_t` WHERE `tipo`= "producto"; ', (err, result)=>{
         if(err){
             throw err
         
